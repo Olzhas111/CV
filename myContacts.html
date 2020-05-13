@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My contacts</title>
+</head>
+
+<body>
+  <h3>Olzhas's contacts</h3>
+  <ul>
+    <li>Tel: 8707777000777</li>
+    <li>Address is : 100 La jolla, San Diego, USA, 92122</li>
+    <li>Email: ola@hunter.mail.ru</li>
+  </ul>
+  <hr size="3">
+  <h4>Fill out form below if you want me contact you</h4>
+  <form action="mailto:mr.olzhas@mail.ru" method="post" enctype="text/plain">
+    <label for="">Your name: </label>
+    <input type="text" name="yourName" value=""><br>
+    <label for="">Your email: </label>
+    <input type="email" name="yourEmail"id="email" size="30" required><br>
+    <label for="pass">Password(8 caracters minimum): </label>
+    <input type="password" id="pass" name="password" minlength="8" required><br>
+    <label for="">Choose file to download: </label>
+    <input type="file" name="yourFile" value="">
+    <input type="submit" name="yourFile"><br>
+    <label for="">Check if you want to sign up for email updates: </label>
+    <input type="checkbox" name="signUpS" value="">
+    <fieldset>
+      <legend>Choose your favorite color</legend>
+      <input type="radio" id="red" name="color">
+      <label for="color">red</label> <br>
+      <input type="radio" id="green" name="color">
+      <label for="color">green</label><br>
+      <input type="radio" id="black" name="color">
+      <label for="color">black</label><br>
+      <label for="">write ypour question for me?</label>
+    </fieldset> <br>
+    <textarea name="question" rows="10" cols="30"></textarea>
+    <input type="submit" name="question" value="">
+
+
+  </form>
+</body>
+
+</html>
